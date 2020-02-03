@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+      <h2>Pokéquestions</h2>
+      <hr>
+      <h3><strong>About you</strong></h3>
+      <h4>Name (Required)</h4>
+      <input type="text" name="" id="name" class="form-control" required>
+      <h4>Link to Poképhoto (Required)</h4>
+      <input type="text" name="" id="photo" class="form-control" required>
+      <hr>
+
+      <h3><strong>Pokéquestion 1</strong></h3>
+      <h4>Your mind is always buzzing with unexplored ideas and plans?</h4>
+      <select data-placeholder="" class="chosen-select" id="q1">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 2</strong></h3>
+      <h4>Generally speaking, you rely more on your experience than your imagination?</h4>
+      <select data-placeholder="" class="chosen-select" id="q2">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 3</strong></h3>
+      <h4>You find it easy to stay relaxed and focused even when there is some pressure?</h4>
+      <select data-placeholder="" class="chosen-select" id="q3">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 4</strong></h3>
+      <h4>You rarely do something just out of sheer curiosity?</h4>
+      <select data-placeholder="" class="chosen-select" id="q4">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 5</strong></h3>
+      <h4>People can rarely upset you?</h4>
+      <select data-placeholder="" class="chosen-select" id="q5">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 6</strong></h3>
+      <h4>It is often difficult for you to relate to other people’s feelings?</h4>
+      <select data-placeholder="" class="chosen-select" id="q6">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 7</strong></h3>
+      <h4>In a discussion, truth should be more important than people’s sensitivities?</h4>
+      <select data-placeholder="" class="chosen-select" id="q7">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 8</strong></h3>
+      <h4>You rarely get carried away by fantasies and ideas?</h4>
+      <select data-placeholder="" class="chosen-select" id="q8">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 9</strong></h3>
+      <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not?</h4>
+      <select data-placeholder="" class="chosen-select" id="q9">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Pokéquestion 10</strong></h3>
+      <h4>You feel more energetic after spending time with a group of people?</h4>
+      <select data-placeholder="" class="chosen-select" id="q10">
+          <option value=""></option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+      </select>
+      
+      <br>
+      <br>
+
+      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+        Submit</button>
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="#">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+      </div>
+    </footer>
+  </div>
+
+<div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title"><strong>Best Match</strong></h2>
+            </div>
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img id="matchImg" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12ecb7ae-7059-48df-a4f8-2e3fb7858606/d47rmjf-de88a574-49c8-4dcf-9df4-7e11722e8bec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8xMmVjYjdhZS03MDU5LTQ4ZGYtYTRmOC0yZTNmYjc4NTg2MDYvZDQ3cm1qZi1kZTg4YTU3NC00OWM4LTRkY2YtOWRmNC03ZTExNzIyZThiZWMucG5nIn1dXX0.qQtrPbihCWTTF7bQl9cQzUVnPw_yhtVNHAWcDgQV8k4" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type ="text/javascript">
+var config = {
+    ".chosen-select": {},
+    ".chosen-select-deselect": {allow_single_deselect: true},
+    ".chosen-select-no-single": {disable_search_threshold: 10},
+    ".chosen-select-no-results": {no_results_text: "Oops, nothing found"},
+    ".chosen-select-width": {width: "95%"}
+};
+
+for (var selector in config){
+    $(selector).chosen(config[selector]);
+}
+
+$("#submit").on("click", function(){
+    function validateForm(){
+        var isValid = true;
+        $(".form-control").each(function(){
+            if($(this).val === ""){
+                isValid = false;
+            }
+        });
+
+        $(".chosen-select").each(function(){
+            if($(this).val() === ""){
+                isValid = false;
+            }
+        });
+        return isValid;
+    }
+
+    if (validateForm()){
+        var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ]
+        };
+        var currentURL = window.location.origin;
+        $.post(currentURL + "/api/pokemons", userData, function(data){
+            $("#matchName").text(data.name);
+            $("#matchImg").attr("src", data.photo);
+            $("#resultsModal").modal("toggle");
+        });
+    }
+    else {
+        alert("Don't forget to fill all questions before submiting")
+    }
+    return false;
+});
+
+</script>
+
+</body>
+</html>
+
